@@ -96,7 +96,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">เป็นการดูข้อมูล 5 แถวแรก หรือ header</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\13.jpg")
+st.image("images/13.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -105,7 +105,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ตรวจสอบดูว่ามี missing values หรือไม่</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\14.jpg")
+st.image("images/14.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -140,7 +140,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">สร้างและเทรนแบบจำลอง Neural Network เพื่อทำนายค่า "Happiness score" จาก features ที่กำหนด โดยใช้ Regression เป็นกลไกหลักในการปรับค่า weights ของแบบจำลอง</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\15.jpg")
+st.image("images/15.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -157,7 +157,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ประเมินประสิทธิภาพของแบบจำลอง Neural Network โดยการคำนวณค่า MSE ซึ่งเป็นตัวชี้วัดว่าแบบจำลองทำนายค่า "Happiness score" ได้ใกล้เคียงกับค่าจริงมากน้อยเพียงใด ค่า MSE ที่ต่ำบ่งบอกถึงความแม่นยำของแบบจำลองที่สูงขึ้น</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\16.jpg")
+st.image("images/16.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -173,7 +173,7 @@ code = '''
     plt.show()
 '''
 st.code(code, language="python")
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\17.jpg")
+st.image("images/17.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 

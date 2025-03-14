@@ -157,7 +157,7 @@ code = '''
 st.code(code, language="python")
 
 st.markdown('<h5 style="font-size: 20px;">เป็นการดูข้อมูล 5 แถวแรก หรือ header</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\1.jpg")
+st.image("images/1.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -168,7 +168,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ใช้เพื่อดูโครงสร้างโดยรวมของข้อมูล และตรวจสอบชนิดข้อมูล</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\2.jpg")
+st.image("images/2.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -178,7 +178,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ใช้สำหรับตรวจสอบว่ามีข้อมูลที่หายไป (Missing Values) ใน DataFrame หรือไม่ และถ้ามีจะมีจำนวนเท่าไหร่ในแต่ละคอลัมน์</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\3.jpg")
+st.image("images/3.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -188,7 +188,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ใช้ตรวจสอบข้อมูลที่ซ้ำกันใน DataFrame ซึ่งเป็นขั้นตอนสำคัญในการเตรียมข้อมูลก่อนนำไปวิเคราะห์ เพื่อให้มั่นใจว่าข้อมูลมีความถูกต้องและพร้อมสำหรับการวิเคราะห์</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\4.jpg")
+st.image("images/4.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -199,7 +199,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">สร้าง Histogram เพื่อแสดงการกระจายของข้อมูลในคอลัมน์ EpiOverweightAndObese ซึ่งเป็นขั้นตอนสำคัญในการวิเคราะห์ข้อมูลเชิงสถิติ</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\5.jpg")
+st.image("images/5.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -211,7 +211,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">สร้างฟีเจอร์ใหม่ OverweightRatio โดยการคำนวณจากฟีเจอร์ที่มีอยู่เดิม ซึ่งเป็นเทคนิค Feature Engineering ที่ใช้เพื่อปรับปรุงข้อมูลให้เหมาะสมกับการวิเคราะห์และสร้างโมเดล Machine Learning มากขึ้น</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\6.jpg")
+st.image("images/6.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -224,7 +224,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">แปลงข้อมูล Categorical ในคอลัมน์ Sex และ NameHospital ให้เป็น Numerical ด้วยเทคนิค One-Hot Encoding เพื่อเตรียมข้อมูลให้พร้อมสำหรับการสร้างโมเดล Machine Learning</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\7.jpg")
+st.image("images/7.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -243,7 +243,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">แบ่งข้อมูลออกเป็น 2 ชุด คือ ชุดฝึก (Training Set) และ ชุดทดสอบ (Testing Set) ซึ่งเป็นขั้นตอนสำคัญในการสร้างและประเมินโมเดล Machine Learning</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\8.jpg")
+st.image("images/8.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
@@ -262,7 +262,7 @@ code = '''
 '''
 st.code(code, language="python")
 st.markdown('<h5 style="font-size: 20px;">ปรับขนาดข้อมูล (Data Scaling) โดยใช้เทคนิค Standardization ด้วย StandardScaler จากไลบรารี scikit-learn ในชุดฝึกและชุดทดสอบให้อยู่ในช่วงเดียวกันโดยใช้ Standardization ซึ่งเป็นเทคนิคที่นิยมใช้ในการเตรียมข้อมูลก่อนนำไปสร้างโมเดล Machine Learning</h5>', unsafe_allow_html=True)
-st.image(r"C:\Users\user\OneDrive - kmutnb.ac.th\รูปภาพ\สกรีนช็อต\9.jpg")
+st.image("images/9.jpg")
 
 st.write("<br>", unsafe_allow_html=True)
 
